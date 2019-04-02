@@ -1,6 +1,7 @@
 ---
 label: Gallery
 hide_body: false
+display_field: images
 fields:
 - type: text
   name: title
