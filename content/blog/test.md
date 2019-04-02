@@ -1,3 +1,4 @@
 ---
-title: testing
+title: Example post
+
 ---
