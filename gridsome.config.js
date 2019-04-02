@@ -11,7 +11,7 @@ module.exports = {
       options: {
         path: 'content/blog/*.md',
         typeName: 'Post',
-        route: "/blog/:path",
+        route: "/blog/:fileInfo__name",
         // refs: {
         //   // Add a reference to Author GraphQL collection
         //   author: 'Author',
