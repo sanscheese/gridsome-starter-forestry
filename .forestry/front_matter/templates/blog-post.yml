@@ -1,7 +1,10 @@
 ---
 label: Blog post
-hide_body: true
+hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+- type: blocks
+  name: components
+  label: Components
