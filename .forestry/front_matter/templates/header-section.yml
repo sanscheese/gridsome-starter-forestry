@@ -1,4 +1,8 @@
 ---
 label: Header section
-hide_body: false
-fields: []
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  hidden: false
