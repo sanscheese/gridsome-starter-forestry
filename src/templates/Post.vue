@@ -8,7 +8,12 @@ export default {
   <Layout>
     <h1>{{ $page.post.title }}</h1>
 
-    <p>{{ $page.post.content }}</p>
+    <div v-for="component in $page.post.components">
+      <h5>{{component.template}}</h5>
+      
+      <h2>{{component.title}}</h2>
+
+    </div>
   </Layout>
 </template>
 
@@ -18,6 +23,10 @@ query Post($path: String!) {
     id
     title
     path
+    components {
+      template
+      title
+    }
   }
 }
 </page-query>
