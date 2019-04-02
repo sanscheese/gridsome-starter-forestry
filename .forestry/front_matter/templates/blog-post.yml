@@ -9,6 +9,7 @@ fields:
   name: components
   label: Components
   template_types:
+  - header-section
   - gallery
 pages:
 - content/blog/testing-components.md
