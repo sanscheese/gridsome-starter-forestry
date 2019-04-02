@@ -10,3 +10,5 @@ fields:
   label: Components
   template_types:
   - gallery
+pages:
+- content/blog/testing-components.md
