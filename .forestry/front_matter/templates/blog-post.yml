@@ -12,4 +12,5 @@ fields:
   - header-section
   - gallery
 pages:
+- content/blog/test.md
 - content/blog/testing-components.md
