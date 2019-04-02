@@ -1,4 +1,10 @@
 ---
 label: Gallery
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+- type: image_gallery
+  name: images
+  label: Images
