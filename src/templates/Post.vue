@@ -26,6 +26,7 @@ query Post($path: String!) {
     components {
       template
       title
+      images
     }
   }
 }
