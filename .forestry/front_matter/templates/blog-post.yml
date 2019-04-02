@@ -8,3 +8,5 @@ fields:
 - type: blocks
   name: components
   label: Components
+  template_types:
+  - gallery
