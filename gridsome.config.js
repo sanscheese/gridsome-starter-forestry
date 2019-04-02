@@ -6,5 +6,26 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [{
+    use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/blog/*.md',
+        typeName: 'Post',
+        route: "/blog/:path",
+        // refs: {
+        //   // Add a reference to Author GraphQL collection
+        //   author: 'Author',
+        //   // Add a reference to Tag GraphQL collection
+        //   tags: 'Tag'
+
+        //   // Auto create a collection for all categories
+        //   // categories: {
+        //   //   typeName: 'Categories',
+        //   //   route: '/category/:slug',
+        //   //   create: true
+        //   // }
+        // }
+      }
+    }
+  ]
 }
