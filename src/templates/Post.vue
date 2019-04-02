@@ -13,6 +13,10 @@ export default {
       
       <h2>{{component.title}}</h2>
 
+      <div v-for="image in component.images">
+        <img :src="image" />
+      </div>
+
     </div>
   </Layout>
 </template>
