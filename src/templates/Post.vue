@@ -21,6 +21,13 @@ export default {
   </Layout>
 </template>
 
+<style scoped>
+img {
+  max-width: 50vw;
+}
+</style>
+
+
 <page-query>
 query Post($path: String!) {
   post(path: $path) {
