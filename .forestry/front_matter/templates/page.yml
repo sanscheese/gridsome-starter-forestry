@@ -1,6 +1,14 @@
 ---
 label: Page
 hide_body: true
-fields: []
+fields:
+- name: sections
+  type: blocks
+  label: sections
+  template_types:
+  - gallery
+  config:
+    min: 
+    max: 
 pages:
 - pages/starter.md
