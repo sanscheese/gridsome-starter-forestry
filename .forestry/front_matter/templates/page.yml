@@ -2,3 +2,5 @@
 label: Page
 hide_body: true
 fields: []
+pages:
+- pages/starter.md
