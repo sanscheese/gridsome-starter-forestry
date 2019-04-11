@@ -7,6 +7,7 @@ fields:
   label: sections
   template_types:
   - gallery
+  - entity
   config:
     min: 
     max: 
